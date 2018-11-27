@@ -28,14 +28,15 @@ int main() {
          /* mostrar el numero
           * y actualizar el contador */
          if (es_primo) {
-             printf("%d ", n);
+             printf("\n%d ", n);
              primos_por_mostrar--;
          }
+         
          n++;
      }
 
      printf("\n");
-     printf( "\n\n   %cDesea ingresar otra cantidad de numeros primos (s/n)?: ", 168 );
+     printf( "\n\n   %cDesea ingresar otra cantidad de numeros primos a mostrar (s/n)?: ", 168 );
          fflush( stdin );
          scanf( "%c", &seguir );
 
